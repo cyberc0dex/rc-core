@@ -72,7 +72,7 @@ function loadTabData(tabName) {
     }
 }
 
-/*
+
 function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js')
@@ -84,7 +84,7 @@ function registerServiceWorker() {
             });
     }
 }
-*/
+
 
 function showNotification(message, type = 'success') {
     const notification = document.getElementById('notification');
