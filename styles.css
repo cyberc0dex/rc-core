@@ -5,10 +5,6 @@
 }
 
 :root {
-    /* --gradient-start: #8B4513;
-    --gradient-end: #5C1F1F;  
-    --gradient-start: #6E0D25;
-    --gradient-end: #5B2333; */
     --gradient-start: #5C1F1F;
     --gradient-end: #4F0D13;
     --bg-primary: #1a1410;
@@ -25,9 +21,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    /* font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif; */
-    /* background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%); */
-    background: #290f11;
+    background: #290F11;
     color: var(--text-primary);
     min-height: 100vh;
     padding: 20px;
@@ -54,7 +48,6 @@ h1, h2, h3 {
 }
 
 header {
-    /* background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%); */
     background: var(--gradient-start);
     padding: 10px 0 5px 0;
     text-align: center;
@@ -287,7 +280,6 @@ tbody tr:last-child td {
 
 .summary-card {
     flex: 1; /* Equal width cards */
-    /* background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%); */
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     padding: 5px;
@@ -359,7 +351,6 @@ tbody tr:last-child td {
 }
 
 .primary-btn {
-    /* background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%); */
     background: var(--gradient-start);
     color: var(--text-primary);
     padding: 12px 32px;
@@ -639,19 +630,3 @@ textarea[readonly] {
         width: 73%;
     }
 }
-
-/* Desktop view - 4 cards per row */
-/* @media (min-width: 769px) {
-    .player-cards-grid {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-    }
-} */
-
-/* Tablet view - 3 cards per row */
-/* @media (min-width: 600px) and (max-width: 768px) {
-    .player-cards-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 18px;
-    }
-} */
