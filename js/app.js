@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     initializeApp();
     setupTabNavigation();
-    // registerServiceWorker();
+    registerServiceWorker();
 
     // Load Player Stats after DOM is ready
     loadPlayerStats();
