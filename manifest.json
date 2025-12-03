@@ -2,7 +2,7 @@
   "name": "Admin",
   "short_name": "admin",
   "description": "The Racquettes Club Gamelogs",
-  "start_url": "https://cyberc0dex.github.io/rc_dev/",
+  "start_url": "https://cyberc0dex.github.io/rc-core/",
   "display": "standalone",
   "background_color": "#290f11",
   "theme_color": "#440B10",
