@@ -1,6 +1,6 @@
 // service-worker.js - Service worker for offline functionality
 
-const CACHE_NAME = 'rc-dev-v1.0.0';
+const CACHE_NAME = 'rc-core-v1';
 const urlsToCache = [
     './',
     './index.html',
